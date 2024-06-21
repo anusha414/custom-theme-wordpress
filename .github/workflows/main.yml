@@ -22,7 +22,7 @@ jobs:
           php-version: '7.4'  # Specify the PHP version your WordPress site requires
 
       - name: Install Composer dependencies
-        run: composer config --no-plugins allow-plugins.johnpbloch/wordpress-core-installer [true]
+        run: composer config --no-plugins allow-plugins.johnpbloch/wordpress-core-installer: true
 
       - name: Install Node.js and npm
         uses: actions/setup-node@v2
