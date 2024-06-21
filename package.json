@@ -4,8 +4,8 @@
   "description": "Custom WordPress theme by Anusha",
   "main": "index.php",
   "scripts": {
-    "build": "your build command here",
-    "watch": "your watch command here"
+    "build": "npm run build",
+    "watch": "npm run watch"
   },
   "repository": {
     "type": "git",
