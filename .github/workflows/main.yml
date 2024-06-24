@@ -32,9 +32,6 @@ jobs:
       - name: Install npm packages
         run: npm install --production  # Install production-only npm packages
 
-      - name: Build assets (if applicable)
-        #run: npm run build  # Adjust to your build script if you have one
-
       - name: Archive production build
         id: package
         run: |
